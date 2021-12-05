@@ -3,3 +3,7 @@ Add picture of Odin cooking to home page.
 Fix pictures to look better on each recipe page.
 Center text and images on pages.
 */
+
+body {
+    text-align: center;
+}
