@@ -6,4 +6,21 @@ Center text and images on pages.
 
 body {
     text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    padding: 10 10 10 10;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.align-left {
+    text-align: left;
+    float: left;
+    padding-right: 50px;
+}
+
+.align-right {
+    text-align: left;
 }
