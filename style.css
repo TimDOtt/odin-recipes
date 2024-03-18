@@ -30,7 +30,7 @@ ul li {
     list-style-type: none;
 }
 li{
-    padding-top: 10px;
+    padding-top: 5px;
     /* list-style-type: none; */
 }
 h1 {
@@ -45,4 +45,12 @@ h1 {
 
 .align-right {
     text-align: left;
+    float: ;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    padding-bottom: 1000px;
+    padding-left: 10px;
 }
