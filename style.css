@@ -25,9 +25,13 @@ a:focus {
 ul {
     margin: 0;
 }
+
+ul li {
+    list-style-type: none;
+}
 li{
     padding-top: 10px;
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 h1 {
     font-size: 40px;
