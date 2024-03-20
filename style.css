@@ -53,10 +53,10 @@ h1 {
     text-align: left;
 }
 
-img {
+.align-left img{
+    display: block;
     height: auto;
     width: 500px;
-    /* padding-bottom: 1000px; */
     padding-left: 10px;
     padding-right: 100px;
     float: left;
