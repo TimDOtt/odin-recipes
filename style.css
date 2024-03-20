@@ -23,29 +23,31 @@ a:focus {
     color: limegreen;
     
 }
+
+ul {
+    margin-top: 30px;
+}
 ul li {
+    
     list-style-type: none;
 }
 
 .recipe-list li{
     display: inline;
     padding: 10px;
-    margin: 5px;
+    margin: 2px;
     background-color: rgb(6, 117, 161);
 }
-li{
-    padding-top: 5px;
-    /* list-style-type: none; */
-}
+
 h1 {
     font-size: 40px;
 }
 
-.align-left {
+/* .align-left {
     text-align: left;
     float: left;
     padding-right: 50px;
-}
+} */
 
 .align-right {
     text-align: left;
@@ -54,8 +56,10 @@ h1 {
 img {
     height: auto;
     width: 500px;
-    padding-bottom: 1000px;
+    /* padding-bottom: 1000px; */
     padding-left: 10px;
+    padding-right: 100px;
+    float: left;
 }
 
 #panda {
