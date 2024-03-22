@@ -7,10 +7,19 @@ Center text and images on pages.
 body {
     background-color: rgb(54, 54, 54);
     color: white;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Times New Roman', sans-serif;
     font-size: 20px;
-    padding: 10 10 10 10;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    text-align: center;
 }
 
 a {
@@ -24,43 +33,47 @@ a:focus {
     
 }
 
-ul {
-    margin-top: 30px;
-}
 ul li {
-    
     list-style-type: none;
 }
 
+.panda {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.recipe-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
 .recipe-list li{
-    display: inline;
-    padding: 10px;
-    margin: 2px;
     background-color: rgb(6, 117, 161);
+    padding: 10px;
 }
 
 h1 {
     font-size: 40px;
 }
 
-/* .align-left {
-    text-align: left;
-    float: left;
-    padding-right: 50px;
-} */
+.flex-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+}
 
 .align-right {
     text-align: left;
+    flex-shrink: 1;
 }
 
-.align-left img{
-    display: block;
-    height: auto;
-    width: 500px;
-    padding-left: 10px;
-    padding-right: 100px;
-    float: left;
+.align-left {
+    min-width: none;
+    flex: 1 1 100px;
 }
+
 
 #panda {
     padding-bottom: 0px;
