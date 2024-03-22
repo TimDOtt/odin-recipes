@@ -7,6 +7,7 @@ This will show the skills I have learned so far while working through The Odin P
 # Current technologies in use #
 * HTML
 * CSS
+* FLexbox
 
 # Link to github page #
 
